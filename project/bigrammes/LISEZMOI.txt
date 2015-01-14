@@ -1,0 +1,55 @@
+Fréquences des bigrammes en français
+====================================
+
+Le fichier "bigrammes.txt" contient les fréquences des bigrammes (deux lettres successives) en français, calculés sur 5 types de textes :
+
+  - ABU : Textes littéraires
+  - JOC : Journal officiel de la Commission Européenne
+  - MON : Journal Le Monde
+  - OUV : Ouvrages des éditions du CNRS
+  - PER : Périodiques du CNRS et des Editions Hermès
+
+Ces textes ont été réunis et préparés dans le cadre d'un projet collaboratif, avec l'aide de Benoît Habert et de son équipe.
+
+Les tailles de ces textes (obtenues par la commande 'wc') sont les suivantes:
+
+Parag.  Mots    Caractères
+
+  32490  933255 5379687 ABU.TXT
+  44612 1161890 7528119 JOC.TXT
+  13736  933168 5702329 MON.TXT
+  12944 1022255 6501540 OUV.TXT
+   9869  946565 6170195 PER.TXT
+
+ 113651 4997133 31281870 total
+
+Le fichier des fréquences contient 7 colonnes : 
+
+  - Colonne 1 : les deux caractères du bigramme
+  - Colonne 2 : fréquence totale
+  - Colonnes 3-7 : fréquence dans chacun des textes
+
+Exemple :
+
+
+BI	TOTAL	ABU	JOC	MON	OUV	PER
+  	35474	 506	 31641	 2727	 74	 526
+ !	7792	 6772	0	 636	 288	 96
+ "	21479	 2986	0	 16079	 356	 2058
+ $	7	0	 2	0	0	 5
+ %	3103	 1	 1002	 1349	 504	 247
+ &	32	0	 21	 1	 7	 3
+ '	96	 39	 10	 2	 31	 14
+
+Ces données peuvent être utilisées librement, ainsi que redistribuées. Dans ce dernier cas, la présente notice doit impérativement être jointe à la redistribution.
+
+Merci de citer l'utilisation de ces données dans vos publications!
+
+
+Jean Véronis, Professeur de Linguistique et Informatique
+Université de Provence
+29 av. Robert Schuman
+13621 Aix-en-Provence Cedex 1, France
+
+Jean.Veronis@up.univ-mrs.fr
+http://www.up.univ-mrs.fr/~veronis

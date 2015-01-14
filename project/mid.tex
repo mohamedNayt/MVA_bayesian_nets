@@ -1,0 +1,22 @@
+%% LyX 2.0.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{babel}
+\begin{document}
+
+\section{Algorithm basis}
+
+
+\paragraph{Consider a HMM where $(X_t)_t$ represents the hidden variables and
+$(Y_t)_t$ the observed ones. Let's consider a sequence $(\textbf(x),\textbf{y})$
+of length T of this model.}
+
+
+\paragraph{The joint probability is: $P(\textbf(x),\textbf{y}) = P(x_1)\prod_{t=2}^{T}P(x_t|x_{t-1})\prod_{t=1}^{T}P(y_t|x_t)$.
+We will see that all what the information we need to solve our problem
+is encapsulated in this function:}
+
+$$f_{t,t+1}(s,s') = max_{\textbf{x}|(x_t,x_{t+1})=(s,s')} P(\textbf{x},\textbf{y})$$
+\end{document}
